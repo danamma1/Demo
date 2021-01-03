@@ -13,6 +13,7 @@ public class Product {
     private String brand;
     private String madein;
     private float price;
+    private String productDetails;
  
     protected Product() {
     }
@@ -53,6 +54,14 @@ public class Product {
 
 	public void setPrice(float price) {
 		this.price = price;
+	}
+
+	public String getProductDetails() {
+		return productDetails;
+	}
+
+	public void setProductDetails(String productDetails) {
+		this.productDetails = productDetails;
 	}
      
     // other getters and setters are hidden for brevity
